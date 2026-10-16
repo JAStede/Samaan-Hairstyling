@@ -1,0 +1,3 @@
+User-agent: *
+Allow: /
+# Voeg Sitemap toe na definitieve domeinkeuze.
