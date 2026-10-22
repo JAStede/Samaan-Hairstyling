@@ -12,3 +12,13 @@ svg.arrow-icon{width:15px!important;height:15px!important;min-width:15px;max-wid
 
 /* Mobile treatment layout: consistent on iPhone, Android and desktop */
 .treatment-section .menu-grid.treatment-grid{display:grid!important;grid-template-columns:minmax(0,1fr)!important;width:100%;max-width:760px;margin-top:28px}.treatment-section .menu-card{display:block!important;width:100%;max-width:100%;min-width:0}.treatment-section .menu-items{display:block!important}.treatment-section .menu-item{display:flex!important;flex-direction:row!important;align-items:center!important;justify-content:space-between!important;gap:12px!important;min-height:76px}.treatment-section .menu-item>span{display:block!important;min-width:0;flex:1 1 auto}.treatment-section .menu-item>b{display:block!important;flex:0 0 auto;white-space:nowrap;text-align:right}.treatment-section .menu-item small{display:inline-flex!important;align-items:center!important;gap:5px!important;line-height:1.35}.treatment-section .menu-item small>span{display:inline-flex!important;width:13px!important;height:13px!important;flex:0 0 13px!important}.treatment-section .menu-item small svg.arrow-icon{display:block!important;width:13px!important;height:13px!important;max-width:13px!important;max-height:13px!important;transform:none!important}@media(max-width:540px){.treatment-section .menu-card-head{padding:24px 20px}.treatment-section .menu-items{padding:4px 16px}.treatment-section .menu-item{padding:16px 0!important;min-height:74px}.treatment-section .menu-item strong{font-size:15px;line-height:1.4}.treatment-section .menu-item b{font-size:15px}.treatment-section .menu-item small{font-size:12px}}
+
+/* Shared accessibility and review panel */
+[hidden]{display:none!important}
+:focus-visible{outline:2px solid var(--gold);outline-offset:4px}
+.links a[aria-current=page]{color:var(--gold)}
+.reviews-panel{display:flex;align-items:center;justify-content:space-between;gap:32px;padding:clamp(24px,5vw,48px);border:1px solid #88725b;border-radius:20px;background:linear-gradient(120deg,#30271e,#211f1c)}
+.reviews-panel h2{margin:16px 0}
+.reviews-panel p{max-width:650px}
+.reviews-panel>.button{flex-shrink:0}
+@media(max-width:760px){.reviews-panel{flex-direction:column;align-items:flex-start}.actions>.button{max-width:100%}}

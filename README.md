@@ -1,20 +1,19 @@
-# Samaan Hairstyling — LJ Studio Professioneel demo
+# Samaan Hairstyling
 
-## GitHub Pages
-1. Maak een **public** repository `samaan-hairstyling-demo`.
-2. Upload **alle bestanden en de map `assets`** uit deze ZIP naar de root.
-3. Settings → Pages → Deploy from a branch → `main` / `(root)` → Save.
-4. Open `https://<gebruikersnaam>.github.io/samaan-hairstyling-demo/`.
+Statische HTML-website. Gedeelde stijlen in assets/style.css en gedrag in assets/app.js. Geen buildstap.
 
-## Nog te regelen vóór livegang
-- Vervang `assets/logo-placeholder.svg` door het echte logo (met toestemming); de bronwebsite gaf geen downloadbaar logo. Je kunt hetzelfde pad gebruiken of de HTML aanpassen.
-- Vul de **echte profiel-URL's** voor TikTok, Instagram en Facebook in: nu linken deze naar de platform-homepages, niet naar geverifieerde Samaan-profielen.
-- De zes gegenereerde sfeerfoto's zijn **geen echte salon-/klantfoto's**; vervang ze door eigen materiaal vóór gebruik als portfolio.
-- Verifieer prijzen, behandelingen, toestemming, privacyverklaring en openingstijden.
-- Voeg na domeinkeuze correcte absolute canonical-, Open Graph- en sitemap-URL's toe; deze demo laat ze bewust weg om foutieve canonicals te vermijden.
-- De Google preview is een demonstratie, geen Google-integratie of gegarandeerde weergave.
-- Contact verloopt via telefoon en WhatsApp, zonder backend.
-- Cookiekeuze is lokaal; er worden geen analytics/marketingcookies geplaatst, ook niet bij 'Alles toestaan'.
+Zie [SITE-AUDIT.md](SITE-AUDIT.md) voor de controle van 22 oktober 2026, exacte bestandsregels, uitgevoerde verificatie en nog ontbrekende echte gegevens.
 
-## Aanpassen
-Elke pagina is gewone HTML; kleuren/layout in `assets/style.css`, navigatie/modal in `assets/app.js`. Geen build tools nodig.
+## Profielen instellen
+
+Vul uitsluitend bevestigde salonprofielen in bij socialProfiles in assets/app.js. Lege waarden houden de iconen verborgen. Instagram heeft een gevonden kandidaat; TikTok ontbreekt nog.
+
+## Afspraken en reviews
+
+Het contactformulier opent een WhatsApp-aanvraag. De salon bevestigt de afspraak. Verstreken datums worden gecontroleerd in de Nederlandse tijdzone.
+
+De Google-knop opent het gevonden bedrijfsprofiel. Originele reviewcitaten en een directe schrijf-een-reviewlink zijn nog niet toegevoegd.
+
+## Publicatie
+
+Bevestig eerst de definitieve hosting-URL voordat canonical-, Open Graph- en sitemap-URL's worden ingesteld. De huidige beelden zijn gegenereerde sfeerbeelden en het logo is een tekstplaceholder; vervang ze door eigen materiaal.
